@@ -6,3 +6,5 @@ https://yandex.ru/search/?lr=213&text=Reinforcement%20Learning%3A%20With%20Open%
 https://github.com/topics/stock-price-prediction?o=desc&s=stars
 https://towardsdatascience.com/neural-networks-to-predict-the-market-c4861b649371
 построить пример https://www.quantinsti.com/blog/artificial-neural-network-python-using-keras-predicting-stock-price-movement?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
+посмотреть https://gitlab.com/doctorj/sairen/
+Посмотреть обязательно reinforcement learning: I have been eying this paper: "A Deep Reinforcement Learning Framework for the Financial Portfolio" that you may enjoy, my hope is to build my own December 2018. Here is the authors accompanying Github repo for the project as well: https://github.com/ZhengyaoJiang/PGPortfolio
