@@ -1,2 +1,8 @@
+разложить на шум сезонность и тренд 1 5 10 15 30 60 1D
+
+Проверить стационарность
+
 https://yandex.ru/search/?lr=213&text=Reinforcement%20Learning%3A%20With%20Open%20AI%2C%20TensorFlow%20and%20Keras%20Using%20Python%20pdf
 https://github.com/topics/stock-price-prediction?o=desc&s=stars
+https://towardsdatascience.com/neural-networks-to-predict-the-market-c4861b649371
+построить пример https://www.quantinsti.com/blog/artificial-neural-network-python-using-keras-predicting-stock-price-movement?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
