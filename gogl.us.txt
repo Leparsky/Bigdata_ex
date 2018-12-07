@@ -8,3 +8,4 @@ https://towardsdatascience.com/neural-networks-to-predict-the-market-c4861b64937
 построить пример https://www.quantinsti.com/blog/artificial-neural-network-python-using-keras-predicting-stock-price-movement?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
 посмотреть https://gitlab.com/doctorj/sairen/
 Посмотреть обязательно reinforcement learning: I have been eying this paper: "A Deep Reinforcement Learning Framework for the Financial Portfolio" that you may enjoy, my hope is to build my own December 2018. Here is the authors accompanying Github repo for the project as well: https://github.com/ZhengyaoJiang/PGPortfolio
+очень интересные комменты прочитать http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/  и это прочитать из комментов https://arxiv.org/pdf/1710.02298.pdf
