@@ -4,6 +4,7 @@ http://o-s-a.net/os-engine.html
 lisicin
 lde@mail.ru
 Su....3
+https://jamesmccaffrey.wordpress.com/2018/03/06/using-a-neural-network-created-by-cntk-or-tensorflow-in-a-c-program/
 разложить на шум сезонность и тренд 1 5 10 15 30 60 1D
 
 Проверить стационарность
