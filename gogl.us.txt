@@ -142,3 +142,158 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
+18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 
+18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 
+18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 
+18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 18.01.2019 
+DDQN.py
+ #158 Save Model
+	agent.saveModel("../models/model_ep","")
+		
+		
+
+Environment.py
+допилить
+def GetStockDataVecFN(self,key =  r'D:\PycharmProjects\RIZ8\SPFB.RTS-6.18(5M).csv',append=False):
+            dateparse = lambda x, y: pd.datetime.combine(pd.datetime.strptime(x, '%Y%m%d'),
+                                                         pd.datetime.strptime(y, '%H%M%S').time())
+            df = pd.read_csv(key, delimiter=',', index_col=['datetime'],
+                               parse_dates={'datetime': ['<DATE>', '<TIME>']}, date_parser=dateparse)
+            if append:  
+				self.data = pd.concat(self.data, df, ignore_index=True)
+			Else 
+				self.data = df
+				
+def reset(self):
+    self.t = 0
+    self.done = False
+    self.profits = 0
+    self.position = 0
+    # self.position_value = 0
+    self.history = [0 for _ in range(self.history_t)]
+	
+	self.step(0) for _ in range(self.history_t) #step(0) - act = 0: stay
+    return np.array([0] + self.history), 0, self.done,
+
+
+
+
+def ensure_dir(file_path):
+    directory = os.path.dirname(file_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+	
+DDQN.py
+Добавить Train
+		
+		
+score = tfSummary('score'+window_size+volume+{если evaluate то E=+1}, cumul_reward)
+            summary_writer.add_summary(score, global_step=e)
+
+def Evaluate(self, env, args, summary_writer, model = "",andtrain=True):
+        """ Main DDQN Training Algorithm
+        """
+
+        results = []
+        #tqdm_e = tqdm(range(args.nb_episodes), desc='Score', leave=True, unit=" episodes")
+        step=0
+        #gross_profit = 0
+        #for e in tqdm_e:
+            # Reset episode
+            time, cumul_reward, done  = 0, 0, False
+            old_state = env.reset()
+            ##########################################
+            total_reward = 0
+            total_profit = 0
+            total_loss = 0
+            total_profitMax = 0
+            total_profitMin = 0
+            max_drop = 0
+            profitLst = []
+            lossLst = []
+            step = 0
+            #####################################3####
+            while not done:
+                #if args.render: env.render()
+                # Actor picks an action (following the policy)
+                a = self.policy_action(old_state)
+                # Retrieve new state, reward, and whether the state is terminal
+                #new_state, r, done, _ = env.step(a)
+
+                #######################################################
+                new_state, r, done, buy, sell, profit = env.step(a)
+
+                total_reward += r
+                if profit != 0:
+                    total_profit += profit
+                    if total_profit > total_profitMax:
+                        total_profitMax = total_profit
+                        total_profitMin = total_profit
+                    if total_profit < total_profitMin:
+                        total_profitMin = total_profit
+                        try:
+                            if max_drop < (total_profitMax - total_profitMin) / total_profitMax:
+                                max_drop = (total_profitMax - total_profitMin) / total_profitMax
+                        except:
+                            max_drop=0
+
+
+                if profit > 0:
+                    profitLst.append(profit)
+                elif profit < 0:
+                    lossLst.append(profit)
+
+                step += 1
+                if step % 1500 == 0:
+                    print('maxProfit: {} maxLOSS: {} avgProfit: {:01.2f} avgLOSS: {:01.2f} maxdrop: {:.2%} Total profit: {}/{}  '.format(
+                        np.max(profitLst), -np.min(lossLst), np.mean(profitLst), -np.mean(lossLst),
+                        max_drop, total_profit, gross_profit))
+                done = True if step == len(env.data) - 2 else False
+                ######################################################
+                # Memorize for experience replay
+				if andTrain
+					self.memorize(old_state, a, r, done, new_state)
+					# Train DDQN and transfer weights to target network
+					if(self.buffer.size() > args.batch_size):
+					    self.train_agent(args.batch_size)
+					    self.agent.transfer_weights()
+				# Update current state
+                old_state = new_state
+                cumul_reward += r
+                time += 1
+				
+            gross_profit += total_profit
+            # Gather stats every episode for plotting
+            if(args.gather_stats):
+                mean, stdev = gather_stats(self, env)
+                results.append([e, mean, stdev])
+
+            # Export results for Tensorboard
+            score = tfSummary('score', cumul_reward)
+            summary_writer.add_summary(score, global_step=e)
+            summary_writer.flush()
+            вот тут summary writer поправить
+			
+            # Display score
+            #tqdm_e.set_description("Score: " + str(cumul_reward))
+            #tqdm_e.refresh()
+
+        return results				
+Agent.Py
+	def saveModel(self, filename,version)
+	!!!import os.path
+        if version:
+			self.model.save(file_path+version)
+		else:
+			v=1
+			while os.path.exists(file_path+v):
+				v += 1
+			self.model.save(file_path+string(v))
+	def loadModel(self, filename,version)
+	if version:
+			self.model.load(file_path+version)
+		else:
+		v=1
+		while os.path.exists(file_path+v):
+			v += 1
+			
