@@ -1,5 +1,6 @@
 ADX
 ATR добавить в state!!?
+http://bottlepy.org/docs/dev/tutorial.html#introducing-formsdict
 http://o-s-a.net/os-engine.html
 lisicin
 lde@mail.ru
