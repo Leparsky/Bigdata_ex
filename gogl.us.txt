@@ -1,5 +1,14 @@
-ADX
-ATR добавить в state!!?
+MUST TEST
+1. add HIGH, LOW, CLOSE, VOL
+2. Candle Number
+3. log(C(t)/C(t+1)) use Instead of delta... логарифм относительного приращения
+4. Wavwlet decomposition ??? или ну его , сильно сложно и возможно неоправданно
+5. Использовать ансамбль (например на разных интервалах, или архитектурах)
+   10, 15, 30, 1H, 1D, 1W
+   
+
+
+ADX,ATR добавить в state!!?
 http://bottlepy.org/docs/dev/tutorial.html#introducing-formsdict
 https://habr.com/ru/post/250831/
 http://python.su/forum/topic/7215/?page=1#post-48902
