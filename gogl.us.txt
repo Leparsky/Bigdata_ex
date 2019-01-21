@@ -1,7 +1,8 @@
 MUST TEST
-1. add HIGH, LOW, CLOSE, VOL
+1. add HIGH, LOW, CLOSE, VOL, Скользящие средние
 2. Candle Number
 3. log(C(t)/C(t+1)) use Instead of delta... логарифм относительного приращения
+   или просто C(t)/C(t+1)
 4. Wavwlet decomposition ??? или ну его , сильно сложно и возможно неоправданно
 5. Использовать ансамбль (например на разных интервалах, или архитектурах)
    10, 15, 30, 1H, 1D, 1W
