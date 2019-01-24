@@ -1,3 +1,6 @@
+TA-LIB
+https://alphascientist.com/feature_engineering.html
+
 https://habr.com/ru/post/149077/ Сокеты в Python для начинающих
 MUST TEST
 1. + add HIGH, LOW, CLOSE, VOL, Скользящие средние
