@@ -1,0 +1,40 @@
+24.01.2019 03:50:03;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 03:50:03;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;True;True;False;True;False;True;2570.0;880.0;295.2132701421801;224.1614906832298;1.1851851851851851;26200.0;372
+24.01.2019 07:42:12;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 07:42:12;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;True;True;False;True;False;False;2440.0;710.0;383.05263157894734;164.0;5.5;18350.0;205
+24.01.2019 11:31:39;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 11:31:39;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;True;False;False;True;False;True;1600.0;810.0;284.36241610738256;158.3116883116883;0.95;30180.0;226
+24.01.2019 13:39:20;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 13:39:20;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;True;True;False;False;False;True;2420.0;710.0;274.982332155477;184.90384615384616;0.3793103448275862;39360.0;491
+24.01.2019 16:56:25;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 16:56:25;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;False;True;False;True;False;True;2570.0;710.0;245.3846153846154;131.9558359621451;0.3082706766917293;206990.0;1331
+24.01.2019 20:58:54;stage;file;history_win;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+24.01.2019 20:58:54;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;True;True;False;False;True;True;3440.0;940.0;277.37827715355803;184.76190476190476;0.09405940594059406;86040.0;870
+25.01.2019 00:15:17;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+25.01.2019 00:15:17;train;D:\PycharmProjects\RIZ8\SPFB.RTS-8.18(5M).csv;10;500;True;False;False;False;True;True;550.0;350.0;170.0;127.3913043478261;18.0;2300.0;94
+25.01.2019 00:17:01;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+25.01.2019 00:17:01;train;D:\PycharmProjects\RIZ8\SPFB.RTS-8.18(5M).csv;10;500;True;False;False;False;True;True;550.0;450.0;172.72727272727272;122.97872340425532;1.4821428571428572;1820.0;91
+25.01.2019 00:21:11;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+25.01.2019 00:21:11;train;D:\PycharmProjects\RIZ8\SPFB.RTS-8.18(5M).csv;10;500;True;False;False;False;True;True;550.0;380.0;186.02941176470588;116.75;1.7272727272727273;7980.0;108
+25.01.2019 00:22:51;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+25.01.2019 00:22:51;train;D:\PycharmProjects\RIZ8\SPFB.RTS-8.18(5M).csv;10;500;True;False;False;False;True;True;550.0;360.0;163.22033898305085;107.23404255319149;5.111111111111111;4590.0;106
+25.01.2019 20:34:10;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+25.01.2019 20:34:10;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;True;False;True;1260.0;400.0;360.0;175.3030303030303;0.7980769230769231;57190.0;257
+26.01.2019 01:33:18;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+26.01.2019 01:33:18;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;True;False;False;2570.0;460.0;363.94871794871796;172.7173913043478;0.24675324675324675;55080.0;287
+26.01.2019 06:37:06;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+26.01.2019 06:37:06;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;False;False;True;False;True;1630.0;470.0;340.7112970711297;144.74576271186442;3.0;64350.0;357
+26.01.2019 09:42:17;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+26.01.2019 09:42:17;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;False;False;True;2290.0;400.0;352.00716845878134;151.5625;0.36666666666666664;83660.0;375
+26.01.2019 14:16:32;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+26.01.2019 14:16:32;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;False;True;False;True;False;True;1050.0;480.0;246.39894086496028;120.0;0.9666666666666667;243050.0;1434
+26.01.2019 19:18:48;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+26.01.2019 19:18:48;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;False;True;True;2400.0;440.0;300.7827788649706;150.89473684210526;0.04744255003706449;125030.0;701
+27.01.2019 00:15:21;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+27.01.2019 00:15:21;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;False;True;False;1910.0;430.0;286.39853747714807;152.92237442922374;0.32608695652173914;123170.0;766
+27.01.2019 05:01:49;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+27.01.2019 05:01:49;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;False;False;False;True;True;3420.0;480.0;267.3333333333333;158.98916967509027;1.0;116360.0;877
+27.01.2019 08:03:56;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+27.01.2019 08:03:56;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;True;True;False;False;False;True;1260.0;480.0;359.38524590163934;135.66666666666666;1.1333333333333333;75480.0;334
+27.01.2019 12:20:35;stage;file;history_win;stop;usevol;dueling;traineval;allprices;allprices2;candlenum;maxProfit;maxLOSS;avgProfit;avgLOSS;maxdrop;Total profit;TRADES
+27.01.2019 12:20:35;train;D:\PycharmProjects\RIZ8\SPFB.RTS-3.18(5M).csv;90;500;False;True;False;False;True;True;2620.0;430.0;245.58420628525383;107.5098814229249;0.09954751131221719;277570.0;1494
