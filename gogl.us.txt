@@ -1,3 +1,6 @@
+Проверить рассчет стопов почемуто мак убыт сделка < Стопа
+посчитать количество + и - сделок
+самая длинная серия -
 TA-LIB
 https://alphascientist.com/feature_engineering.html
 WAVELET TRANSFORMATION HERE ПОСМОТРЕТЬ СЛЕД ТРИ!!!
